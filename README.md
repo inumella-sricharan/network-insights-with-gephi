@@ -7,7 +7,7 @@
 **communities** : to identify communities where nodes within a community have similarities between themselves. <br>
 
 #### Force directed layout algorithms config:
-***Fruchterman Reingold***: ***Force Atlas 2***: <br>
-**Area** : **Scaling** :   <br>
-**Gravity** : **Gravity** :  <br>
-**Speed** : **Prevent overlap** : <br>
+***Fruchterman Reingold***: emsp ***Force Atlas 2***: <br>
+**Area** : emsp **Scaling** :   <br>
+**Gravity** : emsp **Gravity** :  <br>
+**Speed** : emsp **Prevent overlap** : <br>
