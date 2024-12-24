@@ -1,7 +1,7 @@
 # network-insights-with-gephi <br>
  Network analysis, visualization and gathering insights with gephi software <br><br>
 
-### <u>Twitter-followers-project:</u> <br>
+### <ins>Twitter-followers-project:</ins> <br>
 **nodes-size** : degree <br>
 **pagerank** : to determine who are the most influential/important individuals in the twitter network. <br>
 **communities** : to identify communities where nodes within a community have similarities between themselves. <br>
