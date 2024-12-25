@@ -44,9 +44,9 @@
 #### Force directed layout algorithms config:
 |***Fruchterman Reingold***|***Force Atlas 2***|
 |:------------:|:------------:|
-|**Area** : 10000.0|**Scaling** : 50|
-|**Gravity** : 10.0| **Gravity** : 40|
-|**Speed** : 10.0|**Prevent overlap** : True|
+|**Area** : 10000.0|**Scaling** : 30|
+|**Gravity** : 10.0| **Gravity** : 20|
+|**Speed** : 8.0|**Prevent overlap** : True|
 
 **note:** some of the insights have been derived before applying force-atlas-2, they have been mentioned below.<br>
 
