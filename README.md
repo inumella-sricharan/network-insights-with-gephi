@@ -37,3 +37,28 @@
 |**Area** : 10000.0|**Scaling** : 50|
 |**Gravity** : 10.0| **Gravity** : 40|
 |**Speed** : 10.0|**Prevent overlap** : True|
+
+
+### <ins>Diseasome</ins> <br>
+
+#### Force directed layout algorithms config:
+|***Fruchterman Reingold***|***Force Atlas 2***|
+|:------------:|:------------:|
+|**Area** : 10000.0|**Scaling** : 50|
+|**Gravity** : 10.0| **Gravity** : 40|
+|**Speed** : 10.0|**Prevent overlap** : True|
+
+**note:** some of the insights have been derived before applying force-atlas-2, they have been mentioned below.<br>
+
+**node-size** : Degree.<br>
+**communities** : Which diseases appear together in a community based on their similarity of interaction with other diseases. <br>
+**communities node labels** : Nodes with in-degree of 6 and above, to make the labels more readable. <br>
+
+Now apply the force-atlas-2 algorithm (remove all filters previously used).<br>
+
+**node importance** : With community colours enabled, change the node size from degree to pagerank. This is to highlight which set of diseases are most popular/important in the network.<br>
+
+**betweenness centrality** : Make the size of the node as betweenness centrality and the colour of the nodes as their pagerank score. It turns out that there
+is a positive correlation between betweenness-centrality and pagerank score. The nodes which occur frequently between shortest path between any two nodes often tend to have a good pagerank score. 
+
+
