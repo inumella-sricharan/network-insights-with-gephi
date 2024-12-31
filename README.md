@@ -31,7 +31,7 @@ This dataset contains a graph sent from different people(nodes) across europe. A
 |**Gravity** : 10.0| **Gravity** : 1.0|
 |**Speed** : 10|**Prevent overlap** : True|
 
-### <ins>🌳 Chinese Biographical Database</ins> <br>
+### <ins>🌳 Chinese Biographical Database:</ins> <br>
 **nodes-size** : degree <br>
 **betweenness-centrality** : which person occurs most frequently(common ancestry) between any two given persons. <br>
 
@@ -43,7 +43,7 @@ This dataset contains a graph sent from different people(nodes) across europe. A
 |**Speed** : 10.0|**Prevent overlap** : True|
 
 
-### <ins>🧬 Diseasome</ins> <br>
+### <ins>🧬 Diseasome:</ins> <br>
 This dataset contains a network/graph of disorders and disease genes.<br>
 
 #### Force directed layout algorithms config:
