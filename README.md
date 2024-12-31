@@ -1,10 +1,12 @@
 # network-insights-with-gephi <br>
  Network analysis, visualization and gathering insights with gephi software <br><br>
 
-### <ins>Twitter-followers-project:</ins> <br>
+### <ins>📱 Twitter-followers-project:</ins> <br>
+This dataset contains twitter users as nodes in the graph and their followers information as the edges.<br>
+
 **nodes-size** : degree <br>
-**pagerank** : to determine who are the most influential/important individuals in the twitter network. <br>
-**communities** : to identify communities where nodes within a community have similarities between themselves. <br>
+**pagerank** : to determine who are the most influential/important/popular individuals in the twitter network. <br>
+**communities** : To identify communities where nodes within a community have similarities between themselves. <br>
 
 #### Force directed layout algorithms config:
 |***Fruchterman Reingold***|***Force Atlas 2***|
@@ -14,11 +16,13 @@
 |**Speed** : 10|**Prevent overlap** : True|
 
 
-### <ins>Mapping-Letters-over-Europe:</ins> <br>
+### <ins>📫 Mapping-Letters-over-Europe:</ins> <br>
+This dataset contains a graph sent from different people(nodes) across europe. A sender-receiver pair constitutes an edge here.<br>
+
 **nodes-size** : degree <br>
-**betweenness-centrality** : To identify nodes that occur most frequently along the shortest path between any two given nodes. <br>
-**communities** : To identify communities where nodes within a community have similarities between themselves. <br>
-**in-degree** : To identify which nodes are connected to more recipients. <br>
+**betweenness-centrality** : To identify nodes that occur most frequently along the shortest path between any sender-receiver pair. <br>
+**communities** : To identify communities where nodes within a community have similarities between themselves(identify similar nodes according to their letter sending pattern). <br>
+**in-degree** : To identify which nodes are connected to more senders. <br>
 
 #### Force directed layout algorithms config:
 |***Fruchterman Reingold***|***Force Atlas 2***|
@@ -39,7 +43,8 @@
 |**Speed** : 10.0|**Prevent overlap** : True|
 
 
-### <ins>Diseasome</ins> <br>
+### <ins>🧬 Diseasome</ins> <br>
+This dataset contains a network/graph of disorders and disease genes.<br>
 
 #### Force directed layout algorithms config:
 |***Fruchterman Reingold***|***Force Atlas 2***|
@@ -56,9 +61,8 @@
 
 Now apply the force-atlas-2 algorithm (remove all filters previously used).<br>
 
-**node importance** : With community colours enabled, change the node size from degree to pagerank. This is to highlight which set of diseases are most popular/important in the network.<br>
+**node importance** : With community colours enabled, change the node size from degree to pagerank. This is to highlight which set of diseases are most popular/influtential/important in the network.<br>
 
-**betweenness centrality** : Make the size of the node as betweenness centrality and the colour of the nodes as their pagerank score. It turns out that there
-is a positive correlation between betweenness-centrality and pagerank score. The nodes which occur frequently between shortest path between any two nodes often tend to have a good pagerank score. 
+**betweenness centrality** : Make the size of the node as betweenness centrality and the colour of the nodes as their pagerank score. It turns out that there is a positive correlation between betweenness-centrality and pagerank score. The nodes which occur frequently between shortest path between any two nodes often tend to have a good pagerank score. 
 
 
